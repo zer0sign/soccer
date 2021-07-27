@@ -1,0 +1,59 @@
+body{
+}
+
+.navbar{
+        background-color: #ffff !important;
+    }
+    li:hover{
+        background-color: #161D6F;
+        font-weight: bold;
+
+    }
+    .nav-link:hover{
+        color: white !important;
+    }
+
+header{
+        font-family: 'Poppins', sans-serif !important;
+    }
+
+.jumbotron-header {
+  background-image: url("/images/header.jpg");
+  background-size: cover;
+  color: white !important;
+}
+
+.jumbotron-header .btn{
+  color: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .jumbtron-header{
+        background: url("/images/image1.jpg");
+
+    }
+}
+
+
+
+.jumbotron {
+    position: relative;
+    background: url("/images/header.jpg");
+    background-size: cover;
+}
+
+.jumbotron-header > .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,77,0.67);
+    z-index: 1;
+}
+
+.jumbotron-header > .inner {
+    position: relative;
+    z-index: 2;
+}
+
